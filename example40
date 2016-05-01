@@ -1,0 +1,21 @@
+<!-- svg path M =move to L=line to-->
+<!-- M than x y than L line to commmand Z closed path -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Example</title>
+    </style>
+  </head>
+  <body>
+<!--  script evaluates automatically javascript need to parse string to number otherwise cominbes them-->
+<!-- myparsedNumber2 same as myparsedNumber above but trick-->
+    <script>
+      var myarray= [1, 2 , 3];
+      console.log(myarray)
+      console.log("Index0 :" + myarray[0]);
+      console.log("Index1 :" + myarray[1]);
+    </script>
+
+  </body>
+</html>
