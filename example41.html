@@ -9,13 +9,15 @@
   </head>
   <body>
 <!--  script evaluates automatically javascript need to parse string to number otherwise cominbes them-->
-<!-- myparsedNumber2 same as myparsedNumber above but trick-->
+<!-- length length of array length-1 last thing in array .x gives 5 or square bracket key , key can lock up objects-->
     <script>
-      var myarray= [1, 2 , 3];
-      console.log(myarray)
-      console.log("Index0 :" + myarray[0]);
-      console.log("Index1 :" + myarray[1]);
-      console.log("Index3 :" + myarray[myarray.length-1]);
+      var myObject = {
+      x: 5,
+      y: 10
+       };
+      console.log(myObject)
+      console.log("x = " + myObject.x);
+      console.log("y = " + myObject["y"]);
     </script>
 
   </body>

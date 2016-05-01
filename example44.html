@@ -9,13 +9,20 @@
   </head>
   <body>
 <!--  script evaluates automatically javascript need to parse string to number otherwise cominbes them-->
-<!-- myparsedNumber2 same as myparsedNumber above but trick-->
+<!-- for each goes through each value of array d convention d-->
     <script>
-      var myarray= [1, 2 , 3];
-      console.log(myarray)
-      console.log("Index0 :" + myarray[0]);
-      console.log("Index1 :" + myarray[1]);
-      console.log("Index3 :" + myarray[myarray.length-1]);
+      var myArrayofObjects = [
+      {x:100, y:100},
+      {x:130, y:120},
+      {x:80, y:180},
+      {x:180, y:80},
+      {x:180, y:40}
+       ];
+      myArrayofObjects.forEach(function(d) {
+console.log(d.x  + ", " + d.y);
+      } );
+
+
     </script>
 
   </body>
